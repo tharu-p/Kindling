@@ -1,0 +1,225 @@
+.mainback {
+  height: 20vw;
+}
+body {
+  margin: 0vw;
+  background-image: linear-gradient(to bottom right, #F49D6E, #E55A10);
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: 'Rubik', serif;
+  color:white;
+}
+#nearby-events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18vw, 1fr));
+  gap: 2vw; 
+}
+.link {
+  color: rgb(232, 209, 164);
+  text-decoration: none;
+}
+.title {
+  font-size: 6vw;
+  font-family: 'Rubik', serif;
+  color:white;
+  text-align: center;
+}
+.einfo {
+  font-size: 1.5vw;
+  font-family: 'Rubik', serif;
+  color:white;
+  text-align: center;
+  outline: none;
+}
+.ebtnn {
+  width: 30vw;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 1% 2%;
+  background-color:#785964;
+  text-decoration: none;
+  margin-top: 3%;
+  cursor: pointer;
+  color: #F7FFF7;
+  font-weight: bold;
+  border-radius: 5vw;
+  transition: 0.2s ease;
+  font-family: 'Rubik', serif;
+}
+.ebtnn:hover {
+  color: #F7FFF7;
+  background-color: #454545;
+}
+.etitle {
+  font-size: 4vw;
+  font-family: 'Rubik', serif;
+  color:white;
+  text-align: center;
+}
+.smalltitle {
+  font-size: 1vw;
+  font-family: 'Rubik', serif;
+  color:white;
+}
+.event h2 {
+  font-size: 3vw;
+  font-family: 'Rubik', serif;
+  color:white;
+  text-align: center;
+}
+.event {
+  min-height: 20vw;
+  background-color: #454545;
+  border-radius: 3vw;
+  margin: 4vw  auto;
+  padding: 2vw;
+}
+.events-container {
+  display: block;
+  width: 70%;
+  margin: 3vw auto;
+  background-color: #454545;
+  border-radius: 3vw;
+  padding: 3vw;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+  gap: 1vw; 
+  margin: 2vw;
+}
+.grid-item {
+  padding: 2vw;
+}
+.navbar {
+  font-size: 1.5vw; 
+  font-family: 'Rubik', serif;
+  background-color: #454545;
+  height: 5vw;
+  margin: 0vw;
+  width: 100%;
+}
+.navbutton {
+  text-decoration: none;
+  color:white;
+  padding: 1vw;
+  font-family: 'Rubik', serif;
+}
+#language-select {
+  padding: 0vw;
+  border-radius: 0.69vw;
+  height: 2.79vw;
+  font-size: 0.84vw;
+  width: 5vw;
+  background-color: #F7FFF7;
+  color: #454545;
+  border: solid #F7FFF7;
+  font-family: 'Rubik', serif;
+}
+.logo {
+  padding-left: 1vw;
+}
+.promo {
+  font-family: 'Rubik', serif;
+  color: white;
+  background-color: #785964;
+  margin: 0vw;
+  padding: 0.5vw;
+  height: 4vw;
+    }
+.footer {
+  background-color: #3d3846;
+  font-size: 16;
+  font-family: 'Rubik', serif;
+  color: white;
+  text-align: center;
+  padding: 1vw;
+}
+.extrabg {
+  margin: 0vw;
+  background-image: linear-gradient(to bottom right, #785964, #2F2327);
+  font-family: 'Rubik', serif;
+  text-align: center;
+}
+.form {
+  color: #fff;
+  background: #F7FFF7;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 10%;
+  padding: 2% 2%;
+  font-family: 'Rubik', serif;
+}
+.form h1 {  
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1vw;
+  font-size: 3vw;
+  color: #454545;
+}
+.form input {
+  width: 100%;
+  height: 3vw;
+  padding-top: 3%;
+  margin-bottom: 5%;
+  background: transparent;
+  border-bottom: 1% solid #454545;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #454545;
+  font-size: 1.5vw;
+  letter-spacing: 1%;
+  outline: none;
+  font-family: 'Rubik', serif;
+}
+.form input:focus {
+  outline: none;
+}
+.btnn {
+  width: 30vw;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 5% 3%;
+  background-color:#F49D6E;
+  border: none;
+  margin-top: 3%;
+  cursor: pointer;
+  color: #454545;
+  font-weight: bold;
+  border-radius: 5vw;
+  transition: 0.2s ease;
+  font-family: 'Rubik', serif;
+}
+.btnn:hover {
+  color: #F7FFF7;
+  background-color: #454545;
+}
+.form .link {
+  font-family: 'Rubik', serif;
+  text-align: center;
+  color: #454545;
+}
+.form .link a {
+  text-decoration: none;
+  color: #4ECDC4;
+}
+.form textarea {
+  width: 100%;
+  min-height: 6vw;
+  padding-top: 3%;
+  margin-bottom: 5%;
+  background: transparent;
+  border-bottom: 1% solid #454545;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #454545;
+  font-size: 1vw;
+  letter-spacing: 1%;
+  outline: none;
+  font-family: 'Rubik', serif;
+}
