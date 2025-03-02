@@ -55,7 +55,7 @@ if (file_exists($lang_file)) {
 
             <p class="link"><?php echo $lang['already_account']; ?>
                 <br>
-                <a href="login.html"><?php echo $lang['log_in_here']; ?></a>  
+                <a href="login.php"><?php echo $lang['log_in_here']; ?></a>  
             </p>
     </div>
     </form>
