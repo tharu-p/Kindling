@@ -37,7 +37,7 @@ $result = $stmt->get_result(); // Get the result set
   <title>
     Kindling | <?php echo $lang['events']; ?>
   </title>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChO3rGlCHU1gmcQmREUXZI-InheicIPuc&libraries=places" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzamcQmREUXZI-InheicIPuc&libraries=places" async defer></script>
   <link rel="icon" type="image/x-icon" href="fire.png">
   <link href="home.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
